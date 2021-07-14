@@ -12,6 +12,16 @@ hope to help poverty alleviation become a social ethos.
 
 
 ## Installation
+First, shound build [Laradock](https://laradock.io/) env.
+
+1 - Clone Laradock inside your PHP project:
+> git clone https://github.com/Laradock/laradock.git
+
+2 - Enter the laradock folder and rename .env.example to .env.
+> cp .env.example .env
+
+3 - Run your containers:
+> make start
 
 
 ## License
