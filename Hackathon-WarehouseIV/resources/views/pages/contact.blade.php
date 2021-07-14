@@ -20,5 +20,5 @@
 
 {{-- Js inject :after --}}
 @section('body')
-
+    @include('component.join_us.join_us')
 @stop

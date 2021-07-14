@@ -21,7 +21,7 @@
     }
 </style>
 
-<div class="whoami">
+<div class="whoami mt-5">
     <div class="container-fluid">
         <div class="row">
             <div class="col-6 col-md-5" >
@@ -38,7 +38,7 @@
             </div>
             <div class="col-6 col-md-5">
                 <div class="item">
-                    <img src="./resources/views/component/image/WhoWeAre.jpg" class="img-fluid">
+                    <img src="{{asset('assets/image/WhoWeAre.jpg')}}" class="img-fluid">
                 </div>
             </div>
         </div>

@@ -1,24 +1,11 @@
-<div class="container-fluid vh-100" style="background: url(
-
-@yield('image-uri.money')
-@yield('image-uri.medical')
-@yield('image-uri.food')
-@yield('image-uri.build')
-
-        ) center center no-repeat; background-size: cover;">
+<div class="container-fluid vh-100" style="background: url({{asset('assets/image/food.jpeg')}}) center center no-repeat; background-size: cover;">
     <div class="row vh-100 justify-content-center align-items-center">
         <div class="col-8 p-5" style="background: rgba(0,0,0,0.35)">
             <h1 class="title display-3 text-white">
-                @yield('subtitle.money')
-                @yield('subtitle.medical')
-                @yield('subtitle.food')
-                @yield('subtitle.build')
+                資助教育
             </h1>
             <p class="text fs-4 text-white">
-                @yield('description.money')
-                @yield('description.medical')
-                @yield('description.food')
-                @yield('description.build')
+                Hello，你知道嗎？全世界有多少孩童為了家計，迫使他們無法上學，無法擁有翻身的機會，教育是如此的重要，你會來到這想必你也非常清楚這件事，希望你能獻出一份愛心，點起一片希望的火苗。
             </p>
             <strong class="total-amount fs-3 text-white">目前幕資額 : {%CURRENT_MONEY%}</strong>
             <div class="progress mt-1">
@@ -29,11 +16,13 @@
             </div>
             <div class="row w-100 justify-content-center mt-5">
                 <div class="col-6 col-md-4">
+                    <button id="circle-menu-exit" type="button" class="btn btn-secondary w-100 btn-lg">
+                        回上一頁
+                    </button>
+                </div>
+                <div class="col-6 col-md-4">
                     <button type="button" class="btn btn-primary w-100 btn-lg">
-                        @yield('button-name.money')
-                        @yield('button-name.medical')
-                        @yield('button-name.food')
-                        @yield('button-name.build')
+                        幫助脫貧
                     </button>
                 </div>
             </div>

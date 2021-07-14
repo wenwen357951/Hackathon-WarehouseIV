@@ -12,6 +12,7 @@
 
     {{-- Css --}}
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     @yield('custom-css')
 
     <!--  JQ  -->
@@ -20,10 +21,7 @@
 </head>
 <body>
     @include('component.navbar')
-
     @yield('body')
-
-    @include('component.footer')
     <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
     @yield('js-after')
 </body>

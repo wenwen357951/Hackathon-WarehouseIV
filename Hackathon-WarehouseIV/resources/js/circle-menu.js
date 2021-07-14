@@ -1,12 +1,25 @@
 $(document).ready(function () {
     let canClick = true;
-    let items = $('.cir-menu-item');
+    let items = $('.cir-menu-item, #circle-menu-exit');
+    let main_wrapper = $('.circle-menu')
+    let can_pass = false;
+
     items.click(function () {
+        if (!main_wrapper.hasClass('circle-unselect')) {
+            if ($(this).attr('id') === 'circle-menu-exit') {
+                can_pass = true;
+                return;
+            }
+            if (!can_pass) {
+                return;
+            }
+            can_pass = false;
+        }
+
         if (!canClick) return;
         canClick = false;
 
         let selected = $(this);
-        let main_wrapper = $('.circle-menu')
 
         items.each(function () {
             if ($(this).attr('id') === selected.attr('id')) {

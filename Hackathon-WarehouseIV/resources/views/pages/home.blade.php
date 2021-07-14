@@ -22,6 +22,7 @@
 @section('body')
 
     @include('component.home.kv')
+    @include('component.home.we-are')
     @include('component.home.work')
-
+    @include('component.footer')
 @stop

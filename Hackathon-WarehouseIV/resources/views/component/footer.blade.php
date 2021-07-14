@@ -22,7 +22,7 @@
 
 </style>
 
-<div class="footer">
+<div class="footer mt-5">
     <div class="container-fluid">
         <div class="address">台南市永康區南台街1號　No. 1 , Nantai St. , Youngkang Dist. , Taiwan City 710301 , Taiwan(R.O.C)</div>
         <div class="Email">Email : houbonbon@houbonbon.mail.com</div>

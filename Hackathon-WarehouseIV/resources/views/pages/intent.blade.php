@@ -1,7 +1,7 @@
 @extends('layout.main')
 
 {{-- Title setting--}}
-@section('title', '首頁')
+@section('title', '組織使命')
 
 {{-- Custom CSS --}}
 @section('custom-css')

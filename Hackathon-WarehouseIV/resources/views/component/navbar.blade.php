@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-md navbar-light bg-light shadow vw-100">
+<nav class="navbar navbar-expand-md navbar-light bg-light shadow w-100">
     <div class="container-lg">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="{{ route('home') }}">
             <div class="logo-wrapper">
                 <img src="{{asset('assets/logo/logo.png')}}" alt="好棒棒資助平台_logo">
                 <span class="ms-2 display-5">好棒棒資助平台</span>

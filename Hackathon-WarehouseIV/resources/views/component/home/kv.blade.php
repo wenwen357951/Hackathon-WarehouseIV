@@ -13,7 +13,7 @@
 </div>
 
 <div class="banner">
-    <div class="container vh-100 w-100">
+    <div class="container vh-100">
         <div class="row h-100 justify-content-end align-items-center">
             <div class="col-12 col-lg-6 text-center">
                 <h1 class="display-2 mt-3">你可知道...?</h1>
