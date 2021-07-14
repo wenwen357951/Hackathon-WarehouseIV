@@ -1,4 +1,4 @@
-@extends('pages.resources.views.layout.main')
+@extends('layout.main')
 
 {{-- Title setting--}}
 @section('title', '首頁')
@@ -20,5 +20,8 @@
 
 {{-- Js inject :after --}}
 @section('body')
+
+    @include('component.home.kv')
+    @include('component.home.work')
 
 @stop

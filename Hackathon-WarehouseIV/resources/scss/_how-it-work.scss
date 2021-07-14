@@ -1,0 +1,14 @@
+#HowWork {
+  margin-top: 100px;
+
+  .txt-container {
+    background: #bc91dc;
+    padding: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #HowWork .txt-container {
+    margin-top: -100px;
+  }
+}

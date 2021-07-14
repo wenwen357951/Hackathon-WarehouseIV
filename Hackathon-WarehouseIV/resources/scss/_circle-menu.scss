@@ -30,6 +30,9 @@
   top: calc(var(--circle-menu-sm-ball-anchor));
   left: calc(var(--circle-menu-sm-ball-anchor));
 }
+.cir-menu-icon, .icon-wrapper{
+  transition: width .5s ease-in-out, height .5s ease-in-out;
+}
 
 .cir-menu-item {
   transition: top 1s ease-in-out, left 1s ease-in-out, transform 1.5s ease-in-out;
@@ -43,6 +46,16 @@
     border-radius: 0;
     z-index: 1000;
     transform: rotate(0) translate(0) rotate(0) !important;
+
+    .cir-menu-icon {
+      width: 0 !important;
+      height: 0 !important;
+    }
+
+    .icon-wrapper {
+      width: 0 !important;
+      height: 0 !important;
+    }
   }
 
   &.circle-disable {

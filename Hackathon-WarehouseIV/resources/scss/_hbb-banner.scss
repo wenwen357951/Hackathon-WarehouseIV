@@ -1,0 +1,35 @@
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.banner {
+  z-index: 500;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 500px;
+  max-height: 500px;
+
+  h1, p,
+  strong {
+    font-weight: 500;
+  }
+
+  .row > div {
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+    padding: 10px 30px;
+    box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.4);
+  }
+
+  button:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  button {
+    box-shadow: 0 0 5px #366f5c;
+  }
+}

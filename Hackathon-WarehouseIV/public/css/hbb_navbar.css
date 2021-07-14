@@ -1,0 +1,27 @@
+nav {
+    z-index: 1000;
+    position: absolute !important;
+    left: 0;
+    top: 0;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-wrapper img {
+    width: 3em;
+    filter: dropShadow(1px 1px 5px rgba(.3, .3, .3, .5));
+}
+
+.logo-wrapper span {
+    text-align: center;
+    font-weight: 800;
+}
+
+.nav-link {
+    font-size: 1.2em;
+    font-weight: 600;
+}
