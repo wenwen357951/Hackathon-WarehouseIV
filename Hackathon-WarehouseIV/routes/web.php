@@ -29,4 +29,8 @@ Route::get('/contact', function () {
     return view('pages.contact');
 })->name('contact');
 
+Route::get('/money', function () {
+    return view('component.circle-menu.money');
+})->name('money');
+
 
