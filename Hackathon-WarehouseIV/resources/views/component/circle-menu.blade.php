@@ -6,7 +6,7 @@
 <div class="circle-menu circle-unselect display-1">
     <div class="cir-menu-lg-ball bg-warning shadow-lg">
         <div class="d-flex h-100 justify-content-center align-items-center m-0 fw-bold text-white">
-            <h1 class="animate__headShake display-3">消除貧窮</h1>
+            <h1 class="display-3">消除貧窮</h1>
         </div>
     </div>
     <div id="teach" class="cir-menu-item cir-menu-sm-ball bg-success shadow">

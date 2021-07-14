@@ -4,7 +4,7 @@
     }
     .whoami h1{
         text-decoration: rosybrown wavy underline;
-        padding: 10px 0px 30px 0px;
+        padding: 10px 0 30px 0;
         font-weight:bold;
         font-size: 70px;
     }
@@ -21,7 +21,7 @@
     }
 </style>
 
-<div class="whoami mt-5">
+<div id="we-are" class="whoami mt-5">
     <div class="container-fluid">
         <div class="row">
             <div class="col-6 col-md-5" >
@@ -38,7 +38,7 @@
             </div>
             <div class="col-6 col-md-5">
                 <div class="item">
-                    <img src="{{asset('assets/image/WhoWeAre.jpg')}}" class="img-fluid">
+                    <img src="{{asset('assets/image/WhoWeAre.jpg')}}" class="img-fluid shadow">
                 </div>
             </div>
         </div>

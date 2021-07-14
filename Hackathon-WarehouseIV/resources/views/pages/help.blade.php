@@ -22,7 +22,7 @@
 @section('body')
     @include('component.circle-menu')
     <div class="background"
-         style="background: url('{{asset('assets/image/circle-background.jpeg')}}') center center no-repeat;
+         style="background: url('{{asset('assets/image/circle-background-5.jpeg.png')}}') center center no-repeat;
                  background-size: cover;position: absolute; left: 0;top: 0;width: 100vw;height: 100vh;z-index: -1;">
     </div>
 @stop

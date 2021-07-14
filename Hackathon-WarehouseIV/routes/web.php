@@ -21,10 +21,6 @@ Route::get('/help', function () {
     return view('pages.help');
 })->name('help');
 
-Route::get('/intent', function () {
-    return view('pages.intent');
-})->name('intent');
-
 Route::get('/contact', function () {
     return view('pages.contact');
 })->name('contact');

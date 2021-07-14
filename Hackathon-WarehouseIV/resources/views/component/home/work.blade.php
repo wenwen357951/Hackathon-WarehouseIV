@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-12 col-md-7">
             <div class="picture" style="flex-shrink: 0">
-                <img src="{{asset('assets/image/HowItWork.jpg')}}" class="w-100 shadow" alt="How It Work!">
+                <img src="{{asset('assets/image/HowItWork.jpg')}}" class="w-100 shadow-lg" alt="How It Work!">
             </div>
         </div>
         <div class="col-12 col-md-7 offset-md-5">
