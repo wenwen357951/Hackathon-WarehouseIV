@@ -1,0 +1,17 @@
+@mixin on-circle($item-count, $circle-size) {
+  > * {
+    $angle: (360 / $item-count);
+    $rot: 0;
+
+    @for $i from 2 through ($item-count + 1) {
+      &:nth-child(#{$i}) {
+        transform:
+                rotate($rot * 1deg)
+                translate($circle-size / 2)
+                rotate(-$rot * -1deg);
+      }
+
+      $rot: $rot + $angle;
+    }
+  }
+}

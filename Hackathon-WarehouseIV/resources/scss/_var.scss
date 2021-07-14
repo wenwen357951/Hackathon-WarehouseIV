@@ -1,0 +1,7 @@
+// Circle Menu
+:root {
+  --circle-menu-lg-ball-size: 4em;
+  --circle-menu-sm-ball-size: 2em;
+  --circle-menu-lg-ball-anchor:  calc(50% - (var(--circle-menu-lg-ball-size) / 2));
+  --circle-menu-sm-ball-anchor:  calc(50% - (var(--circle-menu-sm-ball-size) / 2));
+}
