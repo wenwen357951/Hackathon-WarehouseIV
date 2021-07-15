@@ -8,6 +8,8 @@
 Nearly half of the world's population lives in poverty, We
 hope to help poverty alleviation become a social ethos.
 
+![https://raw.githubusercontent.com/wenwen357951/Hackathon-WarehouseIV/master/showcase/home.png]
+
 ## Prerequisites
 [Laravel v8.x](https://laravel.com/)
 
