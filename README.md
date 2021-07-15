@@ -10,11 +10,23 @@ hope to help poverty alleviation become a social ethos.
 
 ## Prerequisites
 [Laravel v8.x](https://laravel.com/)
+
+
 [Laradock v12.1](https://laradock.io/)
+
+
 [Docker](https://www.docker.com/)
+
+
 [PHP v7.3](https://www.php.net/)
+
+
 [Composer v2.1.3](https://getcomposer.org/)
+
+
 [Node Package Manager](https://www.npmjs.com/)
+
+
 
 ## Installation
 First, shound build [Laradock](https://laradock.io/) env.
@@ -65,7 +77,13 @@ SOFTWARE.
 
 ## Contact
 S.W.-Chen (wayne) - 4A7G0029@stust.edu.tw
+
+
 H.H.-Lu (huai) - 4A7G0036@stust.edu.tw
+
+
 B.Y.-Yan - 4A7G0018@stust.edu.tw
+
+
 Z.U.-Huang - 4A7G00112
 
