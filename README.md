@@ -9,7 +9,7 @@ Nearly half of the world's population lives in poverty, We
 hope to help poverty alleviation become a social ethos.
 
 ## Prerequisites
-
+[Laravel](https://laravel.com/)
 
 ## Installation
 First, shound build [Laradock](https://laradock.io/) env.
@@ -47,7 +47,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Citation
-
-
 ## Contact
+S.W.-Chen (wayne) - 4A7G0029@stust.edu.tw
+H.H.-Lu (huai) - 4A7G0036@stust.edu.tw
+B.Y.-Yan - 4A7G0018@stust.edu.tw
+Z.U.-Huang - 4A7G00112
+
