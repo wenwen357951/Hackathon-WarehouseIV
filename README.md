@@ -20,7 +20,7 @@ First, shound build [Laradock](https://laradock.io/) env.
 2 - Enter the laradock folder and rename .env.example to .env.
 > cp .env.example .env
 
-3 - Run your containers:
+3 - Run the containers:
 > make start
 
 
