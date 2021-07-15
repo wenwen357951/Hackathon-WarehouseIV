@@ -13,7 +13,7 @@ Main Page:
 ![Main Page](https://raw.githubusercontent.com/wenwen357951/Hackathon-WarehouseIV/master/showcase/home.png)
 
 Circle Donate Menu:
-![Circle Donate Menu](https://raw.githubusercontent.com/wenwen357951/Hackathon-WarehouseIV/master/showcase/cirle-menu.png)
+![Circle Donate Menu](https://raw.githubusercontent.com/wenwen357951/Hackathon-WarehouseIV/master/showcase/circle-menu.png)
 
 Join Us:
 ![Join Us](https://raw.githubusercontent.com/wenwen357951/Hackathon-WarehouseIV/master/showcase/join_us.png)
