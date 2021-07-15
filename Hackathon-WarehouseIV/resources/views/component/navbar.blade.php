@@ -24,7 +24,7 @@
                     <?php
                     } else {
                     ?>
-                    <a class="nav-link" href="{{route('home')}}">我們是誰?</a>
+                    <a class="nav-link" href="{{route('home')}}#we-are">我們是誰?</a>
                     <?php
                     }
                     ?>
