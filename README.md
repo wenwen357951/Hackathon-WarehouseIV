@@ -8,7 +8,15 @@
 Nearly half of the world's population lives in poverty, We
 hope to help poverty alleviation become a social ethos.
 
-![ShowCase](https://raw.githubusercontent.com/wenwen357951/Hackathon-WarehouseIV/master/showcase/home.png)
+## Description
+Main Page:
+![Main Page](https://raw.githubusercontent.com/wenwen357951/Hackathon-WarehouseIV/master/showcase/home.png)
+
+Circle Donate Menu:
+![Circle Donate Menu](https://raw.githubusercontent.com/wenwen357951/Hackathon-WarehouseIV/master/showcase/cirle-menu.png)
+
+Join Us:
+![Join Us](https://raw.githubusercontent.com/wenwen357951/Hackathon-WarehouseIV/master/showcase/join_us.png)
 
 ## Prerequisites
 [Laravel v8.x](https://laravel.com/)
