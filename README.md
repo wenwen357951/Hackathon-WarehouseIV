@@ -9,7 +9,12 @@ Nearly half of the world's population lives in poverty, We
 hope to help poverty alleviation become a social ethos.
 
 ## Prerequisites
-[Laravel](https://laravel.com/)
+[Laravel v8.x](https://laravel.com/)
+[Laradock v12.1](https://laradock.io/)
+[Docker](https://www.docker.com/)
+[PHP v7.3](https://www.php.net/)
+[Composer v2.1.3](https://getcomposer.org/)
+[Node Package Manager](https://www.npmjs.com/)
 
 ## Installation
 First, shound build [Laradock](https://laradock.io/) env.
@@ -20,9 +25,20 @@ First, shound build [Laradock](https://laradock.io/) env.
 2 - Enter the laradock folder and rename .env.example to .env.
 > cp .env.example .env
 
-3 - Run the containers:
+3 - Enter the Hackathon-WarehouseIV folder that have laravel framework.
+> cd Hackathon-WarehouseIV
+
+4 - Install npm package and composer package
+> npm install & composer install
+
+5 - Create Laravel API Key
+> php artsian key:generate
+
+6 - Go back to ROOT folder and run the service
 > make start
 
+7 - If want to stop servic please enter
+> make stop
 
 ## License
 MIT License
